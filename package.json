@@ -2,11 +2,11 @@
   "name": "t2t-architecture",
   "version": "1.0.0",
   "description": "Task Management REST API with strict 3-tier layer separation",
-  "main": "dist/index.js",
+  "main": "dist/server.js",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
+    "dev": "tsx watch src/server.ts",
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
